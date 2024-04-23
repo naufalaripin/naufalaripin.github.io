@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  color: aliceblue;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("img/TIK.png");
+  background-size: 130%;
+}
+.header {
+  /* border: 1px solid green; */
+  font-style: italic;
+  font-size: 2rem;
+  color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  /* border: 1px solid black; */
+}
+.keyword {
+  color: #222;
+  padding: 3px;
+  /* border-color: #222; */
+  border-radius: 10px;
+}
+
+.btn-search {
+  font-size: 3px;
+  padding: 0;
+  border: none;
+  background-color: #141414;
+  color: aliceblue;
+  margin: 5px;
+  /* border: #222 1px solid; */
+  padding: 7px;
+  border-radius: 100px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #14d257; */
+  padding: 20px;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  width: 30%;
+}
+
+.container-data {
+  /* border: 1px solid purple; */
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.data {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid blue; */
+}
+
+.cuaca {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  /* border: 1px solid white; */
+}
+.tanggal {
+  display: flex;
+
+  justify-content: center;
+}
